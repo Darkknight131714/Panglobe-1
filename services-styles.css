@@ -787,7 +787,7 @@ section {
 
 
 .get-in-touch{
-    background: #EEF6FF url(/img/services/get-in-touch\ bg.png) no-repeat;
+    background: #EEF6FF url(./img/services/get-in-touch\ bg.png) no-repeat;
     background-size: cover;
     position: relative;
     text-align: center;
