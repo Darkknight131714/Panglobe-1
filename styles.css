@@ -3,7 +3,7 @@
 
 :root {
   --dark-one: #333;
-  --dark-two: #7a7a7a;
+  --dark-two: #424242;
   --main-color: #0A6EDD;
   --dark-main-color: #0E5DB5;
   --light-one: #fff;
@@ -208,19 +208,25 @@ nav.sticky {
     border: 2px solid var(--light-one);
   }
   
-  .links a:hover {
-    color: var(--main-color);
+
+  .links a:hover{
+    /* color: var(--main-color); */
+    text-decoration: underline;
   }
+
   
+
   .links a.active:hover {
     color: var(--light-one);
     background-color: transparent;
     border: 2px solid var(--light-one);
+    text-decoration: none;
   }
 
   .links a.active:active{
-      color: var(--dark-main-color);
+      color: var(--light-one);
       border: 2px solid var(--dark-main-color);
+      text-decoration: none;
   }
 
   nav.sticky .active {
@@ -610,8 +616,6 @@ section {
 
 
 
-
-
 .headoffice{
     display: flex;
     column-gap: 1.5rem;
@@ -626,8 +630,6 @@ section {
     color: var(--light-one);
 }
 
-.footer-location{
-}
 
 .footer_location_img{
     width: 1rem;
@@ -654,13 +656,131 @@ section {
 }
 
 /*====================================END-Footer====================================*/
-@media screen and (max-width: 600px){
-    .logo{
-      color: #333;
-    }
+
+
+
+
+
+/*====================================Fields====================================*/
+
+.tf{
+    background: var(--light-three);
 }
 
+.container{
+    background: none;
+    padding: 0;
+}
 
+.translationalFields h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    color: var(--dark-one);
+    font-size: 2.5rem;
+}
+
+.underline{
+    height: 0.12rem;
+    width: 18rem;
+    background: var(--dark-one);
+    align-items: center;
+}
+
+.translationalFields p{
+    padding-top: 2rem;
+    font-weight: 500;
+    color: var(--dark-one);
+    font-size: 1.4rem;
+}
+
+.translational-fields {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-row-gap: 4rem;
+    margin: 6rem 0 auto;
+    padding-bottom: 3rem;
+    }
+
+    .translational-fields p{
+        width: 15rem;
+        height: 3.6rem;
+        background: var(--light-one);
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0.5rem;
+        padding: 1rem 2rem;
+        text-align: center;
+        font-size: 1.05rem;
+        font-weight: 500;
+        color: var(--dark-two);
+        transition: 0.3s;
+    }
+
+    .translational-fields p:hover{
+        transform: translateY(-5px);
+        border-bottom: solid 2px var(--main-color);
+    }
+
+
+
+    .tf h6{
+        font-size: 1.5rem;
+        font-weight: 400;
+        text-align: center;
+        padding: 2rem 0rem 6rem 0;
+        color: var(--dark-two);
+    }
+
+
+
+
+
+
+    .tf .points1 {
+        width: 200px;
+        bottom: 0;
+        right: 0;
+      }
+      
+      .tf .square {
+        left: 10%;
+        bottom: 10%;
+      }
+      
+      
+      .tf .xshape {
+        right: 4%;
+        top: 12%;
+      }
+      
+      .tf .half-circle1 {
+        left: 53%;
+        bottom: 21%;
+      }
+      
+      
+      .tf .wave1 {
+        bottom: 48%;
+        left: 85%;
+      }
+      
+      
+      .tf .circle {
+        left: 15%;
+        bottom: 85%;
+      }
+
+
+
+
+
+
+    
+
+/*====================================EnD-Fields====================================*/
 
 
 

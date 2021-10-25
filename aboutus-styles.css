@@ -3,7 +3,7 @@
 
 :root {
   --dark-one: #333;
-  --dark-two: #7a7a7a;
+  --dark-two: #424242;
   --main-color: #0A6EDD;
   --dark-main-color: #0E5DB5;
   --light-one: #fff;
@@ -215,19 +215,25 @@ nav.sticky {
     border: 2px solid var(--light-one);
   }
   
-  .links a:hover {
-    color: var(--main-color);
+
+  .links a:hover{
+    /* color: var(--main-color); */
+    text-decoration: underline;
   }
+
   
+
   .links a.active:hover {
     color: var(--light-one);
     background-color: transparent;
     border: 2px solid var(--light-one);
+    text-decoration: none;
   }
 
   .links a.active:active{
-      color: var(--dark-main-color);
+      color: var(--light-one);
       border: 2px solid var(--dark-main-color);
+      text-decoration: none;
   }
 
   nav.sticky .active {
@@ -395,6 +401,11 @@ section {
     position: relative;
 }
 
+.services-translation{
+    padding-top: 4rem;
+}
+
+
 .services-translation .container {
     padding: 0;
 }
@@ -415,12 +426,18 @@ section {
 
 .short-title{
     font-size: 3rem;
-    line-height: 1;
+    color: var(--dark-one);
+}
+
+.short-title-h2{
+    font-size: 2rem;
     color: var(--dark-one);
 }
 
   .services-short-title{
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    line-height: 3.2rem;
   }
 
   .services-bg{
@@ -494,6 +511,12 @@ section {
     position: relative;
 }
 
+
+.services-editing{
+    padding-top: 4rem;
+}
+
+
 .services-editing .container {
     padding: 0;
 }
@@ -514,6 +537,7 @@ section {
   }
 
   .services-editing .short-title{
+      text-align: left;
     font-size: 3rem;
     line-height: 1;
     color: var(--dark-one);
@@ -595,6 +619,13 @@ section {
     position: relative;
 }
 
+
+.services-proofreading{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+
 .services-proofreading .container {
     padding: 0;
 }
@@ -642,6 +673,21 @@ section {
   }
 
 
+  .services-proofreading ul{
+    list-style-type: disc;
+  }
+
+  .services-proofreading p{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: var(--dark-two);
+  }
+
+
+
+
+
 
 
 
@@ -654,7 +700,7 @@ section {
   
   .services-proofreading .square {
     right: 40%;
-    top: 83%;
+    bottom: 5%;
   }
   
   
@@ -686,104 +732,6 @@ section {
 
 
 
-
-
-/*====================================Services-Terminology====================================*/
-
-section {
-    background-color: #EEF6FF;
-    position: relative;
-}
-
-.services-terminology .container {
-    padding: 0;
-}
-
-.services-terminology .container.grid-2 {
-    padding-top: 5.625rem;
-    grid-template-columns: 3fr 2.5fr;
-    min-height: 100vh;
-    padding-bottom: 6rem;
-    text-align: left;
-}
-
-.services-terminology .services-image{
-      margin-left: 8rem;
-      max-width: 500px;
-      margin-top: 5rem;
-
-  }
-
-  .services-terminology .short-title{
-    font-size: 3rem;
-    line-height: 1;
-    color: var(--dark-one);
-}
-
-.services-terminology .services-short-title{
-    padding-bottom: 3rem;
-  }
-
-  .services-terminology .services-bg{
-    position: absolute;
-}
-
-.services-terminology .services-bg-right{
-    max-width: 35rem;
-    top: 0;
-    right: 0;
-    transform: rotateY(180deg);
-}
-
-
-.services-terminology .description{
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.5rem;
-    color: var(--dark-two);
-  }
-
-  .description-editing {
-    padding-right: 8rem;
-  }
-
-
-
-  .services-terminology .points1 {
-    width: 250px;
-    bottom: 0;
-    left: 0;
-  }
-  
-  .services-terminology .square {
-    right: 40%;
-    top: 83%;
-  }
-  
-  
-  .services-terminology .xshape {
-    right: 4%;
-    top: 12%;
-  }
-  
-  .services-terminology .half-circle1 {
-    left: 37%;
-    bottom: 27%;
-  }
-  
-  
-  .services-terminology .wave1 {
-    bottom: 20%;
-    left: 90%;
-  }
-  
-  .services-terminology .circle {
-    left: 15%;
-    bottom: 85%;
-  }
-
-
-/*====================================END-Services-Terminology====================================*/
 
 
 .get-in-touch{

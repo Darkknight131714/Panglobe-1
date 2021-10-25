@@ -3,7 +3,7 @@
 
 :root {
   --dark-one: #333;
-  --dark-two: #7a7a7a;
+  --dark-two: #424242;
   --main-color: #0A6EDD;
   --dark-main-color: #0E5DB5;
   --light-one: #fff;
@@ -215,19 +215,25 @@ nav.sticky {
     border: 2px solid var(--light-one);
   }
   
-  .links a:hover {
-    color: var(--main-color);
+
+  .links a:hover{
+    /* color: var(--main-color); */
+    text-decoration: underline;
   }
+
   
+
   .links a.active:hover {
     color: var(--light-one);
     background-color: transparent;
     border: 2px solid var(--light-one);
+    text-decoration: none;
   }
 
   .links a.active:active{
-      color: var(--dark-main-color);
+      color: var(--light-one);
       border: 2px solid var(--dark-main-color);
+      text-decoration: none;
   }
 
   nav.sticky .active {
