@@ -34,7 +34,9 @@ input,
 textarea {
   font-family: "Poppins", sans-serif;
 }
-
+.h-icon{
+  display: none;
+}
 a {
   text-decoration: none;
 }
@@ -1055,9 +1057,20 @@ section {
     display: none;
 }
 
-
-.active{
-    display: none;
+.h-icon{
+  display: block;
+}
+#links{
+  display: none;
+  position: absolute;
+  background-color: #0A6EDD;
+  top: 100%;
+  width: 100%;
+  left: -0%;
+}
+.links ul {
+  display: contents;
+  
 }
 
 
@@ -1070,7 +1083,15 @@ section {
 
 
 
-
-
+}
+@media only screen and (max-width: 480px) {
+  .translational-fields {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-row-gap: 3rem;
+    margin: 6rem 0 auto;
+  }
 }
 
