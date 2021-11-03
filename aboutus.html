@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>About Us</title>
         <link rel="stylesheet" href="aboutus-styles.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
@@ -64,7 +65,7 @@
                 <!-- <div class="container"> -->
                         <a href="index.html" class="logo">Panglobe</a>
 
-                    <div class="links">
+                    <div class="links" id="links">
                         <ul class="links">
                             <li><a href="index.html">Home</a></li>
                             <li><a href="services.html">Services</a></li>
@@ -72,6 +73,9 @@
                             <li><a href="contactUs.html" class="active">Contact Us</a></li>
                         </ul>
                     </div>
+                    <a href="javascript:void(0);" class="h-icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
                 <!-- </div> -->
             </nav>
 
@@ -134,16 +138,16 @@
 
             </div>
            
-            <div class="container grid-2">
+            <div class="container grid-2" id="whychoose">
 
                 <div class="column1">
-                    <img src="./img/services/aboutUs-whychoose.png" class="services-image" alt="">
+                    <img src="./img/services/aboutUs-whychoose.png" class="services-image" alt="" id="whychooseus">
                 </div>
 
                 <div class="column2">
                     <h1 class="short-title services-short-title">Why Choose Us?</h1>
                     <br> 
-                    <h1 class="short-title-h2 services-short-title">High Quality, Professional And Reliable Translation Services</h1>
+                    <h1 class="short-title-h2 services-short-title" id="high">High Quality, Professional And Reliable Translation Services</h1>
                 <p class="description">
                     We Help Companies Who Want To Venture Into Foreign Language And Culture With Our Qualified And Highly Experienced Professionals.
                 </p>
@@ -153,7 +157,7 @@
 
 
         <section class="services-editing">
-            <img src="./img/services/services bgs.png" class="services-bg services-bg-right" alt="">
+            <img src="./img/services/services bgs.png" class="services-bg services-bg-right" alt="" id="weird">
             <!-- <img src="/img/home/services-bg2.svg" class="services-bg services-bg2" alt=""> -->
            
             <div class="overlay overlay-lg">
@@ -187,7 +191,7 @@
 
             </div>
            
-            <div class="container grid-2">
+            <div class="container grid-2" id="history">
 
 
                 <div class="column1">
@@ -200,7 +204,7 @@
                 </div>
 
                 <div class="column2">
-                    <img src="./img/services/aboutUs-history.png" class="services-image" alt="">
+                    <img src="./img/services/aboutUs-history.png" class="services-image" alt="" id="aboutus-history">
                 </div>
 
 
@@ -244,10 +248,10 @@
 
             </div>
            
-            <div class="container grid-2">
+            <div class="container grid-2" id="translators">
 
                 <div class="column1">
-                    <img src="./img/services/Asset3.png" class="services-image" alt="">
+                    <img src="./img/services/Asset3.png" class="services-image" alt="" id="asset3">
                 </div>
 
                 <div class="column2">
