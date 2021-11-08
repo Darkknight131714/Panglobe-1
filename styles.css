@@ -1057,9 +1057,14 @@ section {
     display: none;
 }
 
+
+
 .h-icon{
   display: block;
 }
+
+
+
 #links{
   display: none;
   position: absolute;
@@ -1068,7 +1073,9 @@ section {
   width: 100%;
   left: -0%;
   padding: 1rem;
+  transition: 0.3s;
 }
+
 .links ul {
   display: contents;
   
@@ -1094,5 +1101,6 @@ section {
     grid-row-gap: 3rem;
     margin: 6rem 0 auto;
   }
+  
 }
 

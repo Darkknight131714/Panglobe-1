@@ -524,7 +524,6 @@ section {
       margin-left: 8rem;
       max-width: 500px;
       margin-top: 5rem;
-
   }
 
   .services-editing .short-title{
@@ -819,14 +818,15 @@ section {
     justify-content: center;
     align-items: center;
     height: 40rem;
-    
 }
+
 
 .get-in-touch-bg{
     background:#EEF6FF ;
     position: absolute;
     z-index: 0;
 }
+
 
 .get-in-touch-title{
     padding-top: 10rem;
@@ -923,7 +923,6 @@ section {
     display: flex;
     justify-content: center;
     column-gap: 8rem;
-
 }
 
 .box{
@@ -1327,6 +1326,168 @@ display: contents;
 
 
 
+
+
+.services-translation .container.grid-2 {
+    padding-top: 2rem;
+    grid-template-columns: 0fr 3fr;
+    min-height: 100vh;
+    padding-bottom: 6rem;
+  }
+
+
+  .short-title{
+    font-size: 3rem;
+    line-height: 1;
+    color: var(--dark-one);
+    text-align: center;
+}
+
+.description{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: var(--dark-two);
+    text-align: center;
+    padding: 0 2.4rem;
+  }
+
+
+
+
+
+  .services-editing .container.grid-2 {
+    padding-top: 5.625rem;
+    grid-template-columns: 3fr 0fr;
+    min-height: 100vh;
+    padding-bottom: 6rem;
+}
+
+.services-editing .services-image{
+    display: none;
+}
+
+
+.services-editing .services-bg-right{
+    display: none;
+}
+
+.services-editing .short-title{
+    text-align: center;
+    font-size: 3rem;
+    line-height: 1;
+    color: var(--dark-one);
+}
+
+
+
+
+
+
+
+
+.services-proofreading  .services-image{
+    display: none;
+}
+
+.services-proofreading .container.grid-2 {
+    padding-top: 5.625rem;
+    grid-template-columns: 0fr 2.5fr;
+    min-height: 100vh;
+    padding-bottom: 6rem;
+    text-align: left;
+  }
+
+
+
+
+
+
+
+
+  .services-terminology .container.grid-2 {
+    padding-top: 5.625rem;
+    grid-template-columns: 3fr 0fr;
+    min-height: 100vh;
+    padding-bottom: 6rem;
+    text-align: left;
+}
+
+.services-terminology .services-image{
+    display: none;
+}
+
+
+.services-terminology .services-bg{
+    display: none;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+.get-in-touch-title{
+    padding-top: 10rem;
+    color: var(--light-one);
+    font-weight: 400;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    letter-spacing: 0.205em;
+}
+
+
+.get-in-touch-description{
+    color: var(--light-one);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
+
+.get-in-touch-buttons{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: 0.3s;
+
+}
+
+
+
+
+
+
+.testimonials-heading{
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: var(--dark-one);
+    margin-bottom: 5rem;
+}
+
+
+
+.testimonials-box{
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+}
+
+.box{
+    width: 20rem;
+    height: 15rem;
+    border: solid 2px var(--dark-two);
+    border-radius: 2rem;
+    margin: 0 1rem 0 1rem;
+}
 
 
 
