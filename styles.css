@@ -1087,6 +1087,105 @@ section {
 
 
 
+  header .points1 {
+    width: 150px;
+    bottom: 0;
+    left: 85%;
+  }
+  
+  
+  header .square {
+    right: 10%;
+    top: 75%;
+  }
+  
+  header .triangle {
+    right: -3%;
+    bottom: 75%;
+  }
+  
+  header .xshape {
+    right: 3%;
+    bottom: 50%;
+  }
+  
+  header .half-circle1 {
+    display: none;
+    left: 50%;
+    bottom: 82%;
+  }
+  
+  header .half-circle2 {
+
+    left: 5%;
+    top: 67%;
+  }
+  
+  header .wave1 {
+    bottom: 75%;
+    left: -3%;
+  }
+  
+  header .wave2 {
+    bottom: 8%;
+    right: 80%;
+  }
+  
+  header .circle {
+    display: none;
+    left: 48%;
+    bottom: 63%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .services .points1 {
+    width: 150px;
+    bottom: 0;
+    left: 0;
+  }
+  
+  
+  .services .square {
+    right: 79%;
+    top: 65%;
+  }
+  
+  
+  .services .xshape {
+    right: 4%;
+    top: 12%;
+  }
+  
+  .services .half-circle1 {
+    left: 33%;
+    bottom: 20%;
+  }
+  
+  
+  .services .wave1 {
+    bottom: 20%;
+    left: 90%;
+  }
+  
+  
+  .services .circle {
+    left: 12%;
+    bottom: 83%;
+  }
+
+}
+
+
+
 
 
 

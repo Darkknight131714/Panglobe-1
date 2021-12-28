@@ -1002,7 +1002,43 @@ textarea::placeholder {
 
 
 
-
+header .points1 {
+    width: 150px;
+    bottom: 0;
+    right: 0;
+  }
+  
+  
+  header .square {
+    right: 68%;
+    top: 71%;
+  }
+  
+  header .triangle {
+    right: 1%;
+    bottom: 75%;
+  }
+  
+  header .xshape {
+    right: 4%;
+    bottom: 50%;
+  }
+  
+  
+  header .half-circle2 {
+    left: 5%;
+    top: 67%;
+  }
+  
+  header .wave1 {
+    bottom: 75%;
+    left: -5%;
+  }
+  
+  header .wave2 {
+    bottom: 8%;
+    right: 40%;
+  }
 
 
 

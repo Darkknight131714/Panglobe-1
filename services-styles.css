@@ -1493,4 +1493,205 @@ display: contents;
 
 
 
+header .points1 {
+    width: 150px;
+    bottom: 0;
+    left: 85%;
+  }
+  
+  
+  header .square {
+    right: 10%;
+    top: 75%;
+  }
+  
+  header .triangle {
+    right: -3%;
+    bottom: 75%;
+  }
+  
+  header .xshape {
+    right: 3%;
+    bottom: 50%;
+  }
+  
+  header .half-circle1 {
+    display: none;
+    left: 50%;
+    bottom: 82%;
+  }
+  
+  header .half-circle2 {
+
+    left: 5%;
+    top: 67%;
+  }
+  
+  header .wave1 {
+    bottom: 75%;
+    left: -3%;
+  }
+  
+  header .wave2 {
+    bottom: 8%;
+    right: 80%;
+  }
+  
+  header .circle {
+    display: none;
+    left: 48%;
+    bottom: 63%;
+  }
+
+
+
+
+
+
+
+
+
+
+  .services-translation .points1 {
+    width: 120px;
+    bottom: 0;
+    right: 0;
+  }
+  
+  
+  .services-translation .square {
+    right: 94%;
+    top: 87%;
+  }
+  
+  
+  .services-translation .xshape {
+    right: 4%;
+    top: 12%;
+  }
+  
+  .services-translation .half-circle1 {
+      display: none;
+    left: 29%;
+    bottom: 27%;
+  }
+  
+  
+  .services-translation .wave1 {
+    bottom: 40%;
+    left: 90%;
+  }
+  
+  
+  .services-translation .circle {
+    left: -3%;
+    bottom: 85%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .services-editing .points1 {
+    width: 130px;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .services-editing .square {
+      display: none;
+    right: 40%;
+    top: 83%;
+  }
+  
+  
+  .services-editing .xshape {
+    right: 4%;
+    top: 12%;
+  }
+  
+  .services-editing .half-circle1 {
+    left: -4%;
+    bottom: 27%;
+  }
+  
+  
+  .services-editing .wave1 {
+    bottom: 20%;
+    left: 93%;
+  }
+  
+  .services-editing .circle {
+    left: 15%;
+    bottom: 85%;
+  }
+
+
+
+
+
+  .services-proofreading .points1 {
+    width: 130px;
+    bottom: 0;
+    right: 0;
+  }
+
+
+  .services-proofreading .half-circle1 {
+    left: -2%;
+    bottom: 27%;
+  }
+
+
+  .services-proofreading .wave1 {
+    bottom: 40%;
+    left: 97%;
+  }
+
+
+  .services-proofreading .square {
+      display: none;
+    right: 40%;
+    top: 83%;
+  }
+
+
+
+
+  .services-terminology .points1 {
+    width: 130px;
+    bottom: 0;
+    left: 0;
+  }
+
+  .services-terminology .half-circle1 {
+    left: 98%;
+    bottom: 27%;
+  }
+  
+  
+  .services-terminology .wave1 {
+    bottom: 20%;
+    left: 94%;
+  }
+
+  .services-terminology .square {
+    right: 49%;
+    top: 87%;
+  }
+
+
+
+
+
+
+
+
+
 }
